@@ -38,7 +38,7 @@ jobs:
       - name: Get VPN Gate nodes and build page
         run: python -u vpngate.py
         env:
-          CHECK_WORKER: "https://check.helei.kdns.fr/check?sstp=vpn:vpn@"
+          CHECK_WORKER: "https://thinkof11.016666666.xyz/check?sstp=vpn:vpn@"
           CHECK_CONCURRENCY: "32"
           CHECK_TIMEOUT: "90"
 
